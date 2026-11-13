@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
 import Navbar from "@/components/shared/Navbar";
 import PriceTicker from "@/components/shared/PriceTicker";
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         <Navbar />
 
         <PriceTicker />
+        <Toaster position="top-center" />
 
         {/* Page Content */}
         {children}
