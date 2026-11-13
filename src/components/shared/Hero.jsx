@@ -20,8 +20,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="bg-[#F0F6F1] px-4 py-3 sm:px-6 sm:py-4" >
-      <div className="mx-auto w-full max-w-[1250px] place-items-center-end pr:-4">
+    <section className="bg-[#F0F6F1] px-4 py-3 sm:px-6 sm:py-8" >
+      <div className="mx-auto max-w-6xl px-4">
         <div className="grid items-center gap-5 rounded-2xl border border-[#E4EDE5] bg-[#FAFCFA] px-5 py-6 sm:grid-cols-2 sm:px-8 sm:py-7">
 
           {/* Left Content */}

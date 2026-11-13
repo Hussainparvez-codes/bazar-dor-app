@@ -4,8 +4,8 @@ function PriceSection({ products, type }) {
   if (products.length === 0) return null;
 
   return (
-    <section className="bg-[#F0F6F1] px-4 py-6">
-      <div className="mx-auto w-full max-w-7xl">
+    <section className="bg-[#F0F6F1] px-4 py-8">
+      <div className="mx-auto max-w-6xl px-4">
         {/* Section Heading */}
         <div className="mb-5">
           <h2 className="text-xl font-bold text-[#1D271F]">

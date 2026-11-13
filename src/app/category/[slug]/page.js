@@ -69,7 +69,7 @@ async function CategoryContent({ params }) {
 
   return (
     <main className="min-h-screen bg-[#F0F6F1] py-6 sm:py-8">
-      <div className="mx-auto w-full max-w-[1200px] px-4">
+      <div className="mx-auto w-full max-w-6xl px-4">
         <section className="mb-3 flex items-center gap-3 rounded-xl border border-[#E4EDE5] bg-white px-4 py-4">
           <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#F0F6F1] text-2xl">
             {category.icon}

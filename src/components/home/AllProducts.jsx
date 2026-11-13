@@ -3,7 +3,7 @@ import ProductCard from "@/components/shared/ProductCard";
 export default function AllProducts({ products }) {
   return (
     <section id="all-products" className="bg-[#F0F6F1] py-8">
-      <div className="mx-auto max-w-7xl px-4">
+      <div className="mx-auto max-w-6xl px-4">
 
         {/* Section Heading */}
         <div className="mb-8">
