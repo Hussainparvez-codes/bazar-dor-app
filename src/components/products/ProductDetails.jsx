@@ -104,7 +104,7 @@ export default function ProductDetails({ product }) {
       </div>
 
       {/* Product Card */}
-      <section className="flex flex-col gap-4 rounded-xl border border-[#E3EEE5] bg-white p-4 sm:flex-row sm:items-center sm:justify-between sm:p-5">
+      <section className="w-full max-w-6xl flex flex-col gap-4 rounded-xl border border-[#E3EEE5] bg-white p-4 sm:flex-row sm:items-center sm:justify-between sm:p-5">
 
         <div className="flex items-center gap-4">
           <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-[#F0F9F2] text-4xl">

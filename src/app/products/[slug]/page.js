@@ -37,7 +37,7 @@ async function ProductContent({ params }) {
 
   return (
     <main className="min-h-screen bg-[#F0F6F1] px-4 py-6">
-      <div className="mx-auto w-full max-w-[1250px]">
+      <div className="mx-auto w-full max-w-6xl px-4">
         <ProductDetails product={product} />
       </div>
     </main>
